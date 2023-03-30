@@ -10,7 +10,7 @@ const checkField = () => {
 
     if(inputPrice.value !== '' && inputPeople.value!== '') {
 
-        countBill(parseInt(inputPrice.value,10), parseInt(inputPeople.value, 10), parseFloat(selectTip.value, 10))
+        countBill(parseFloat(inputPrice.value,10), parseInt(inputPeople.value, 10), parseFloat(selectTip.value, 10))
         error.textContent = ''
 
     } else {
