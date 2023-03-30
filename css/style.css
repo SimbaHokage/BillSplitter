@@ -76,15 +76,16 @@ select {
 }
 
 .cost-info {
+  display: none;
   margin-top: 30px;
-  font-size: 2 rem;
+  font-size: 2rem;
 }
 .cost-info .cost {
   font-weight: bold;
 }
 
 .error {
-  font-size: 1.8 rem;
+  font-size: 1.8rem;
   color: rgb(199, 63, 29);
   text-align: center;
 }/*# sourceMappingURL=style.css.map */

@@ -78,8 +78,9 @@ select {
 }
 
 .cost-info {
+    display: none;
     margin-top: 30px;
-    font-size: 2 rem;
+    font-size: 2rem;
 
     .cost {
         font-weight: bold;
@@ -87,7 +88,7 @@ select {
 }
 
 .error {
-    font-size: 1.8 rem;
+    font-size: 1.8rem;
     color: rgb(199, 63, 29);
     text-align: center;
 }
